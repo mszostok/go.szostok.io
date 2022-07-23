@@ -1,0 +1,9 @@
+            <tr>
+              <td>{{ partial "pkg.html" . }}</td>
+              <td><a href="https://{{ partial "repo.html" . }}">{{ partial "repo.html" . }}</a></td>
+              <td>
+                <a href="https://{{ partial "doc.html" . }}">
+                  <img src="https://pkg.go.dev/badge/{{ partial "pkg.html" . }}.svg" alt="GoDoc" />
+                </a>
+              </td>
+            </tr>
