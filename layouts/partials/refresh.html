@@ -1,0 +1,6 @@
+{{- $refreshURL := partial "repo.html" . }}
+{{ if .Page.Params.Site }}
+{{- $site := urls.Parse .Page.Params.Site }}
+{{- $refreshURL = printf "%s%s" $site.Host $site.RequestURI }}
+{{- end }}
+{{ return $refreshURL }}

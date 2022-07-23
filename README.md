@@ -11,7 +11,7 @@ Make sure you have installed [Hugo](https://gohugo.io) on your system. Follow th
 - Clone the repository
 
 	```sh
-	gh clone mszostok/go.szostok.io
+	gh repo clone mszostok/go.szostok.io
 	cd go.szostok.io
 	```
 

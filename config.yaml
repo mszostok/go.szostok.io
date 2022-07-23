@@ -6,4 +6,4 @@ theme: "go-vanity"
 copyright: "Copyright © 2022 Mateusz Szostok (mateusz@szostok.io); all rights reserved."
 paginate: 5
 params:
-  redirect = true
+  redirect: true
