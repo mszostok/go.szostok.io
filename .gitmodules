@@ -1,0 +1,3 @@
+[submodule "themes/go-vanity"]
+	path = themes/go-vanity
+	url = https://github.com/markdumay/hugo-theme-vanity.git
