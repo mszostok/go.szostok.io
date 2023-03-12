@@ -4,6 +4,11 @@ Go supports [vanity import paths](https://pkg.go.dev/cmd/go#hdr-Remote_import_pa
 
 This repository holds sources for the [go.szostok.io](https://go.szostok.io) which is responsible for resolving `go get go.szostok.io/{name}` into `github.com/mszostok/{project}`.
 
+## Add new dependency
+
+```shell
+hugo new {name}.md
+```
 ## Build the site locally
 
 Make sure you have installed [Hugo](https://gohugo.io) on your system. Follow the instructions to clone this repository and build the docs locally.
